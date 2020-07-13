@@ -15,6 +15,6 @@ public class ProviderDirectoryServiceImpl implements IProviderDirectoryService {
 	IProviderDirectoryRepo providerDirectoryRepo;
 	
 	public String greeting() {
-		return "test"; //providerDirectoryRepo.greeting();
+		return providerDirectoryRepo.greeting();
 	}
 }
